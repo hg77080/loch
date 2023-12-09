@@ -1,0 +1,56 @@
+.right_container {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    z-index: 2;
+    box-shadow: 0 8px 22px -6px rgba(24, 39, 75, 0.12);
+}
+
+.loch_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 70%;
+    max-width: 400px;
+}
+
+.form_heading {
+    font-size: 2rem;
+    color: #B0B1B3;
+}
+
+.form_input {
+    padding: 1rem;
+    border: 1px solid #E5E5E6;
+    border-radius: 0.5rem;
+    font-weight: 500;
+}
+.form_input:focus{
+    outline: none;
+}
+.form_cta {
+    background-color: #19191A;
+    padding: 1rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.form_decription {
+    color: #19191A;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.error_message{
+    color: red;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
